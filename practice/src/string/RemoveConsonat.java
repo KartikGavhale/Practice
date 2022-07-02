@@ -2,8 +2,6 @@ package string;
 
 import java.util.ArrayList;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
-
 public class RemoveConsonat 
 {
 	public static void main(String[] args) {
