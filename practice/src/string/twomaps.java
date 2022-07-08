@@ -1,8 +1,6 @@
 package string;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Scanner;
 
 public class twomaps 
@@ -11,8 +9,8 @@ public class twomaps
 	public static void main(String[] args) {
 		
 		
-		 Scanner sc = new Scanner(System.in);
-	        String A = sc.nextLine();
+		 try (Scanner sc = new Scanner(System.in)) {
+			String A = sc.nextLine();
 	        String B = sc.nextLine();
 	        String a = A.toLowerCase();
 	        String b = B.toLowerCase();
@@ -59,6 +57,7 @@ public class twomaps
 	        {
 	        	System.out.println("Not Anagrams");
 	        }
+		}
 	        
 	        
 	}

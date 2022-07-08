@@ -11,24 +11,28 @@ public class Removeduplicate
        String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
-        Scanner sc = new Scanner(System.in);
-        int num = Integer.parseInt(sc.nextLine());
-        System.out.println(num);
-        while (num > 0) 
-        {
-            String input = sc.nextLine();
-            
-            Matcher m = p.matcher(input);
-            
+        try (Scanner sc = new Scanner(System.in)) {
+			int num = Integer.parseInt(sc.nextLine());
+			System.out.println(num);
+			while (num > 0) 
+			{
+			    String input = sc.nextLine();
+			    
+			    Matcher m = p.matcher(input);
+			    
 
-            while (m.find()) 
-            {
-                input = input.replaceAll(m.group(), m.group(1));
-            }
-            
-            System.out.println(input);
-            num--;
-        }
+			    while (m.find()) 
+			    {
+			        input = input.replaceAll(m.group(), m.group(1));
+			    }
+			    
+			    System.out.println(input);
+			    num--;
+			}
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         
     }
 

@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 
 import com.ebanking.pom_class.LoginPage;
-import com.ebanking.utility_class.Utility;
 
 public class TC_SS1 extends BaseClass
 {
