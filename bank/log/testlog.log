@@ -13,3 +13,89 @@
 2022-07-07 23:27:33,371 - bank -INFO - password entered
 2022-07-07 23:27:37,861 - bank -INFO - submit button clicked
 2022-07-07 23:27:39,882 - bank -INFO - Title matched 
+2022-07-08 13:01:05,946 - bank -INFO - url open
+2022-07-08 13:01:14,195 - bank -INFO - user id entered 
+2022-07-08 13:01:14,286 - bank -INFO - password entered
+2022-07-08 13:01:16,176 - bank -INFO - submit button clicked
+2022-07-08 13:01:18,198 - bank -INFO - Title matched 
+2022-07-08 13:05:30,153 - bank -INFO - url open
+2022-07-08 13:05:30,971 - bank -INFO - user id entered 
+2022-07-08 13:05:31,063 - bank -INFO - password entered
+2022-07-08 13:05:32,295 - bank -INFO - submit button clicked
+2022-07-08 13:05:34,322 - bank -INFO - Title matched 
+2022-07-08 13:13:13,277 - bank -INFO - url open
+2022-07-08 13:13:14,084 - bank -INFO - user id entered 
+2022-07-08 13:13:14,251 - bank -INFO - password entered
+2022-07-08 13:13:16,464 - bank -INFO - submit button clicked
+2022-07-08 13:13:18,491 - bank -INFO - Title matched 
+2022-07-08 13:24:52,920 - bank -INFO - test case : 1
+2022-07-08 13:24:57,872 - bank -INFO - url open
+2022-07-08 13:24:58,746 - bank -INFO - user id entered 
+2022-07-08 13:24:58,830 - bank -INFO - password entered
+2022-07-08 13:25:01,341 - bank -INFO - submit button clicked
+2022-07-08 13:25:03,369 - bank -INFO - Title matched 
+2022-07-08 13:51:39,657 - bank -INFO - test case : 1
+2022-07-08 13:52:39,710 - bank -INFO - test case : 1
+2022-07-08 13:53:32,423 - bank -INFO - url open
+2022-07-08 13:53:33,279 - bank -INFO - user id entered 
+2022-07-08 13:53:33,328 - bank -INFO - password entered
+2022-07-08 13:54:25,919 - bank -INFO - submit button clicked
+2022-07-08 13:59:29,776 - bank -INFO - test case : 1
+2022-07-08 13:59:35,442 - bank -INFO - url open
+2022-07-08 13:59:36,515 - bank -INFO - user id entered 
+2022-07-08 13:59:36,645 - bank -INFO - password entered
+2022-07-08 13:59:38,463 - bank -INFO - submit button clicked
+2022-07-08 14:06:39,056 - bank -INFO - test case : 1
+2022-07-08 14:06:43,591 - bank -INFO - url open
+2022-07-08 14:06:44,711 - bank -INFO - user id entered 
+2022-07-08 14:06:44,836 - bank -INFO - password entered
+2022-07-08 14:06:46,717 - bank -INFO - submit button clicked
+2022-07-08 14:06:46,718 - bank -INFO - True Condition verified now checking for title
+2022-07-08 14:06:48,726 - bank -INFO - Title matched 
+2022-07-08 14:06:52,258 - bank -INFO - test case : 2
+2022-07-08 14:06:59,573 - bank -INFO - url open
+2022-07-08 14:06:59,664 - bank -INFO - user id entered 
+2022-07-08 14:06:59,724 - bank -INFO - password entered
+2022-07-08 14:07:00,898 - bank -INFO - submit button clicked
+2022-07-08 14:07:04,475 - bank -INFO - test case : 3
+2022-07-08 14:07:10,925 - bank -INFO - url open
+2022-07-08 14:07:14,496 - bank -INFO - test case : 4
+2022-07-08 14:07:21,000 - bank -INFO - url open
+2022-07-08 14:09:15,645 - bank -INFO - test case : 1
+2022-07-08 14:09:24,305 - bank -INFO - url open
+2022-07-08 14:09:25,123 - bank -INFO - user id entered 
+2022-07-08 14:09:25,215 - bank -INFO - password entered
+2022-07-08 14:09:28,785 - bank -INFO - submit button clicked
+2022-07-08 14:09:28,787 - bank -INFO - True Condition verified now checking for title
+2022-07-08 14:09:30,800 - bank -INFO - Title matched 
+2022-07-08 14:09:35,528 - bank -INFO - test case : 2
+2022-07-08 14:09:44,126 - bank -INFO - url open
+2022-07-08 14:09:44,219 - bank -INFO - user id entered 
+2022-07-08 14:09:44,273 - bank -INFO - password entered
+2022-07-08 14:09:45,600 - bank -INFO - submit button clicked
+2022-07-08 14:09:48,903 - bank -INFO - test case : 3
+2022-07-08 14:09:57,040 - bank -INFO - url open
+2022-07-08 14:10:00,618 - bank -INFO - test case : 4
+2022-07-08 14:10:06,473 - bank -INFO - url open
+2022-07-08 14:11:24,153 - bank -INFO - test case : 1
+2022-07-08 14:11:29,640 - bank -INFO - url open
+2022-07-08 14:11:34,048 - bank -INFO - user id entered 
+2022-07-08 14:11:34,101 - bank -INFO - password entered
+2022-07-08 14:11:36,022 - bank -INFO - submit button clicked
+2022-07-08 14:11:36,023 - bank -INFO - True Condition verified now checking for title
+2022-07-08 14:11:38,033 - bank -INFO - Title matched 
+2022-07-08 14:11:41,758 - bank -INFO - test case : 2
+2022-07-08 14:11:46,362 - bank -INFO - url open
+2022-07-08 14:11:46,449 - bank -INFO - user id entered 
+2022-07-08 14:11:46,521 - bank -INFO - password entered
+2022-07-08 14:11:47,112 - bank -INFO - submit button clicked
+2022-07-08 14:11:50,481 - bank -INFO - test case : 3
+2022-07-08 14:11:56,696 - bank -INFO - url open
+2022-07-08 14:11:56,860 - bank -INFO - user id entered 
+2022-07-08 14:11:56,992 - bank -INFO - password entered
+2022-07-08 14:11:58,451 - bank -INFO - submit button clicked
+2022-07-08 14:12:02,080 - bank -INFO - test case : 4
+2022-07-08 14:12:08,670 - bank -INFO - url open
+2022-07-08 14:12:08,820 - bank -INFO - user id entered 
+2022-07-08 14:12:08,871 - bank -INFO - password entered
+2022-07-08 14:12:10,003 - bank -INFO - submit button clicked

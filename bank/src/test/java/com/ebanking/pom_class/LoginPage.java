@@ -1,10 +1,15 @@
 package com.ebanking.pom_class;
 
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.ebanking.utility_class.Utility;
 
 public class LoginPage 
 {
@@ -20,14 +25,14 @@ public class LoginPage
 		
 	}
 	
-	public void setUserName(String username)
+	public void setUserName(int i) throws EncryptedDocumentException, IOException
 	{
-		userId.sendKeys(username);
+		userId.sendKeys(Utility.readXL(i,1));
 	}
 	
-	public void setPassword(String password)
+	public void setPassword(int j) throws EncryptedDocumentException, IOException
 	{
-		pwd.sendKeys(password);
+		pwd.sendKeys(Utility.readXL(j,2));
 	}
 	public void Submit()
 	{

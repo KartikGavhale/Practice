@@ -13,3 +13,89 @@
 2022-07-07 23:27:33,371 [main] INFO bank - password entered
 2022-07-07 23:27:37,861 [main] INFO bank - submit button clicked
 2022-07-07 23:27:39,882 [main] INFO bank - Title matched 
+2022-07-08 13:01:05,946 [main] INFO bank - url open
+2022-07-08 13:01:14,195 [main] INFO bank - user id entered 
+2022-07-08 13:01:14,286 [main] INFO bank - password entered
+2022-07-08 13:01:16,176 [main] INFO bank - submit button clicked
+2022-07-08 13:01:18,198 [main] INFO bank - Title matched 
+2022-07-08 13:05:30,153 [main] INFO bank - url open
+2022-07-08 13:05:30,971 [main] INFO bank - user id entered 
+2022-07-08 13:05:31,063 [main] INFO bank - password entered
+2022-07-08 13:05:32,295 [main] INFO bank - submit button clicked
+2022-07-08 13:05:34,322 [main] INFO bank - Title matched 
+2022-07-08 13:13:13,277 [main] INFO bank - url open
+2022-07-08 13:13:14,084 [main] INFO bank - user id entered 
+2022-07-08 13:13:14,251 [main] INFO bank - password entered
+2022-07-08 13:13:16,464 [main] INFO bank - submit button clicked
+2022-07-08 13:13:18,491 [main] INFO bank - Title matched 
+2022-07-08 13:24:52,920 [main] INFO bank - test case : 1
+2022-07-08 13:24:57,872 [main] INFO bank - url open
+2022-07-08 13:24:58,746 [main] INFO bank - user id entered 
+2022-07-08 13:24:58,830 [main] INFO bank - password entered
+2022-07-08 13:25:01,341 [main] INFO bank - submit button clicked
+2022-07-08 13:25:03,369 [main] INFO bank - Title matched 
+2022-07-08 13:51:39,657 [main] INFO bank - test case : 1
+2022-07-08 13:52:39,710 [main] INFO bank - test case : 1
+2022-07-08 13:53:32,423 [main] INFO bank - url open
+2022-07-08 13:53:33,279 [main] INFO bank - user id entered 
+2022-07-08 13:53:33,328 [main] INFO bank - password entered
+2022-07-08 13:54:25,919 [main] INFO bank - submit button clicked
+2022-07-08 13:59:29,776 [main] INFO bank - test case : 1
+2022-07-08 13:59:35,442 [main] INFO bank - url open
+2022-07-08 13:59:36,515 [main] INFO bank - user id entered 
+2022-07-08 13:59:36,645 [main] INFO bank - password entered
+2022-07-08 13:59:38,463 [main] INFO bank - submit button clicked
+2022-07-08 14:06:39,056 [main] INFO bank - test case : 1
+2022-07-08 14:06:43,591 [main] INFO bank - url open
+2022-07-08 14:06:44,711 [main] INFO bank - user id entered 
+2022-07-08 14:06:44,836 [main] INFO bank - password entered
+2022-07-08 14:06:46,717 [main] INFO bank - submit button clicked
+2022-07-08 14:06:46,718 [main] INFO bank - True Condition verified now checking for title
+2022-07-08 14:06:48,726 [main] INFO bank - Title matched 
+2022-07-08 14:06:52,258 [main] INFO bank - test case : 2
+2022-07-08 14:06:59,573 [main] INFO bank - url open
+2022-07-08 14:06:59,664 [main] INFO bank - user id entered 
+2022-07-08 14:06:59,724 [main] INFO bank - password entered
+2022-07-08 14:07:00,898 [main] INFO bank - submit button clicked
+2022-07-08 14:07:04,475 [main] INFO bank - test case : 3
+2022-07-08 14:07:10,925 [main] INFO bank - url open
+2022-07-08 14:07:14,496 [main] INFO bank - test case : 4
+2022-07-08 14:07:21,000 [main] INFO bank - url open
+2022-07-08 14:09:15,645 [main] INFO bank - test case : 1
+2022-07-08 14:09:24,305 [main] INFO bank - url open
+2022-07-08 14:09:25,123 [main] INFO bank - user id entered 
+2022-07-08 14:09:25,215 [main] INFO bank - password entered
+2022-07-08 14:09:28,785 [main] INFO bank - submit button clicked
+2022-07-08 14:09:28,787 [main] INFO bank - True Condition verified now checking for title
+2022-07-08 14:09:30,800 [main] INFO bank - Title matched 
+2022-07-08 14:09:35,528 [main] INFO bank - test case : 2
+2022-07-08 14:09:44,126 [main] INFO bank - url open
+2022-07-08 14:09:44,219 [main] INFO bank - user id entered 
+2022-07-08 14:09:44,273 [main] INFO bank - password entered
+2022-07-08 14:09:45,600 [main] INFO bank - submit button clicked
+2022-07-08 14:09:48,903 [main] INFO bank - test case : 3
+2022-07-08 14:09:57,040 [main] INFO bank - url open
+2022-07-08 14:10:00,618 [main] INFO bank - test case : 4
+2022-07-08 14:10:06,473 [main] INFO bank - url open
+2022-07-08 14:11:24,153 [main] INFO bank - test case : 1
+2022-07-08 14:11:29,640 [main] INFO bank - url open
+2022-07-08 14:11:34,048 [main] INFO bank - user id entered 
+2022-07-08 14:11:34,101 [main] INFO bank - password entered
+2022-07-08 14:11:36,022 [main] INFO bank - submit button clicked
+2022-07-08 14:11:36,023 [main] INFO bank - True Condition verified now checking for title
+2022-07-08 14:11:38,033 [main] INFO bank - Title matched 
+2022-07-08 14:11:41,758 [main] INFO bank - test case : 2
+2022-07-08 14:11:46,362 [main] INFO bank - url open
+2022-07-08 14:11:46,449 [main] INFO bank - user id entered 
+2022-07-08 14:11:46,521 [main] INFO bank - password entered
+2022-07-08 14:11:47,112 [main] INFO bank - submit button clicked
+2022-07-08 14:11:50,481 [main] INFO bank - test case : 3
+2022-07-08 14:11:56,696 [main] INFO bank - url open
+2022-07-08 14:11:56,860 [main] INFO bank - user id entered 
+2022-07-08 14:11:56,992 [main] INFO bank - password entered
+2022-07-08 14:11:58,451 [main] INFO bank - submit button clicked
+2022-07-08 14:12:02,080 [main] INFO bank - test case : 4
+2022-07-08 14:12:08,670 [main] INFO bank - url open
+2022-07-08 14:12:08,820 [main] INFO bank - user id entered 
+2022-07-08 14:12:08,871 [main] INFO bank - password entered
+2022-07-08 14:12:10,003 [main] INFO bank - submit button clicked

@@ -4,21 +4,24 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import com.ebanking.utility_class.ReadConfig;
 
 public class BaseClass 
 {
-	String URL = "https://www.demo.guru99.com/V4/";
+	ReadConfig rc = new ReadConfig();
+	String URL = rc.getURL();
 	String userName = "mngr422966";
 	String password = "vyvAbag";
 	WebDriver driver ;
 	public  Logger log ;
-	@BeforeClass
+	@BeforeMethod
 	public void setUp()
 	{
 		String key = "webdriver.gecko.driver";
-		String value = System.getProperty("user.dir")+"//Driver//geckodriver.exe";
+		String value = "./Driver//geckodriver.exe";
 		System.setProperty(key, value);
 		driver = new FirefoxDriver();
 		
@@ -26,7 +29,7 @@ public class BaseClass
 		PropertyConfigurator.configure("log4j.properties");
 	}
 	
-	@AfterClass
+	@AfterMethod
 	public void end() 
 	{
 	
