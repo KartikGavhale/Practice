@@ -16,15 +16,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.PageFactory;
 
 public class Utility 
 {
-	WebDriver driver;
-	Utility()
-	{
-		PageFactory.initElements(driver,this);
-	}
+	
+	
 	
 	
 	public static String readXL(int i , int j) throws EncryptedDocumentException, IOException
@@ -61,15 +57,17 @@ public class Utility
 	}
 	
 	
-	public void SS() throws IOException
+	public static String SS(WebDriver driver) throws IOException
 	{
 		Date d = new Date();
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		File org = ts.getScreenshotAs(OutputType.FILE);
+		File org 	= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		String path = "./Screenshot//"+d.toString().replaceAll(":", "_")+"E-bank.pnj";
 		File f = new File(path);
 		FileHandler.copy(org, f);
+		return path ;
 	}
+	
+	
 
 }

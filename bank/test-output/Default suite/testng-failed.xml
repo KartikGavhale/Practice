@@ -5,8 +5,10 @@
     <classes>
       <class name="com.ebanking.test_class.TC_SS1">
         <methods>
-          <include name="LoginTest"/>
+          <include name="afterTest"/>
+          <include name="LoginTest3"/>
           <include name="end"/>
+          <include name="beforeTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.ebanking.test_class.TC_SS1 -->
