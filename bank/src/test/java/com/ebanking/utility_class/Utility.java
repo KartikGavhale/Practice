@@ -2,6 +2,7 @@ package com.ebanking.utility_class;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Date;
 
@@ -31,8 +32,8 @@ public class Utility
 	Workbook wb = WorkbookFactory.create(f);
 	Sheet sh = wb.getSheet("Sheet1");
 	Row r= sh.getRow(0);
-	sh.getLastRowNum();
-	r.getLastCellNum();
+	int rows = sh.getLastRowNum();
+	int cols = r.getLastCellNum();
 	Cell cell = sh.getRow(i).getCell(j);
 	CellType type = cell.getCellType();
 	String type1 = type.toString();
@@ -54,6 +55,26 @@ public class Utility
 			return value;
 			}
 		}
+	}
+	
+	public String[][] XLdata() throws EncryptedDocumentException, IOException
+	{
+		String path  = "./Resource/e_banking.xlsx";
+		FileInputStream f = new FileInputStream(path);
+		Sheet sh =WorkbookFactory.create(f).getSheet("Sheet1");
+		int rows= sh.getLastRowNum();
+		int cols = sh.getRow(0).getLastCellNum();
+		
+		String data[][]=new String[rows][cols];
+		
+		for(int i=1;i<=rows;i++)
+		{
+			for(int j = 0 ; j<cols;j++)
+			{
+				data[i-1][j]=readXL(i,j);
+			}
+		}
+		return data;
 	}
 	
 	

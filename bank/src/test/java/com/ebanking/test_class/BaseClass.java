@@ -4,9 +4,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -18,26 +18,26 @@ public class BaseClass
 {
 	ReadConfig rc = new ReadConfig();
 	String URL = rc.getURL();
-	String userName = "mngr422966";
-	String password = "vyvAbag";
 	WebDriver driver ;
 	
 	ExtentReports extent = new ExtentReports();
-	ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReport.html");
+	ExtentSparkReporter spark = new ExtentSparkReporter("./target/ExtentReport.html");
 	public  Logger log ;
-	@BeforeMethod
+	@BeforeClass
 	public void setUp()
 	{
 		String key = "webdriver.gecko.driver";
 		String value = "./Driver//geckodriver.exe";
 		System.setProperty(key, value);
 		driver = new FirefoxDriver();
+		driver.manage().deleteAllCookies();
+		driver.get(URL);
 		
 		 log = Logger.getLogger("bank");
 		PropertyConfigurator.configure("log4j.properties");
 	}
 	
-	@AfterMethod(enabled=false)
+	@AfterClass(enabled=false)
 	public void end() 
 	{
 	
@@ -49,7 +49,10 @@ public class BaseClass
 	{
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setDocumentTitle("Ebank_report");
+		spark.config().setReportName("E_bankTest");
+		
 		extent.attachReporter(spark);
+		
 		
 
 	}

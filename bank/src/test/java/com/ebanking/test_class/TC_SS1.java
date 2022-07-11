@@ -27,10 +27,10 @@ public class TC_SS1 extends BaseClass
 		log.info("url open");
 		
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(Case);
+		lp.setUserNameD(Case);
 		Test.pass("user id entered");
 		log.info("user id entered ");
-		lp.setPassword(Case);
+		lp.setPasswordD(Case);
 		Test.pass("Password entered ");
 		log.info("password entered");
 		lp.Submit();
@@ -62,11 +62,11 @@ public class TC_SS1 extends BaseClass
 		log.info("url open");
 		
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(Case);
+		lp.setUserNameD(Case);
 		Test.pass("user id entered");
 		log.info("user id entered ");
 		Test.pass("Password entered ");
-		lp.setPassword(Case);
+		lp.setPasswordD(Case);
 		log.info("password entered");
 		lp.Submit();
 		log.info("submit button clicked");
@@ -89,12 +89,12 @@ public class TC_SS1 extends BaseClass
 		log.info("url open");
 		Test.log(Status.PASS,"Url opened");
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(Case);
+		lp.setUserNameD(Case);
 		Test.pass("user id entered");
 		log.info("user id entered ");
 		Test.addScreenCaptureFromPath(Utility.SS(driver));
 		Test.pass("Password entered ");
-		lp.setPassword(Case);
+		lp.setPasswordD(Case);
 		log.info("password entered");
 		lp.Submit();
 		log.info("submit button clicked");
@@ -121,11 +121,11 @@ public class TC_SS1 extends BaseClass
 		log.info("url open");
 		
 		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(Case);
+		lp.setUserNameD(Case);
 		Test.pass("user id entered");
 		log.info("user id entered ");
 		Test.pass("Password entered ");
-		lp.setPassword(Case);
+		lp.setPasswordD(Case);
 		log.info("password entered");
 		lp.Submit();
 		log.info("submit button clicked");

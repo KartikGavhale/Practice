@@ -13,9 +13,10 @@ import com.ebanking.utility_class.Utility;
 
 public class LoginPage 
 {
-	@FindBy(name="uid") @CacheLookup private WebElement userId ;
-	@FindBy (name="password")@CacheLookup private WebElement pwd;
-	@FindBy (name="btnLogin") @CacheLookup private WebElement LoginBTN;
+	@FindBy(name="uid")  public WebElement userId ;
+	@FindBy (name="password") private WebElement pwd;
+	@FindBy (name="btnLogin")  private WebElement LoginBTN;
+	@FindBy (xpath="/html/body/div[3]/div/ul/li[15]/a") private WebElement Logout;
 	WebDriver driver ;
 	
 	public LoginPage(WebDriver driver)
@@ -25,17 +26,32 @@ public class LoginPage
 		
 	}
 	
-	public void setUserName(int i) throws EncryptedDocumentException, IOException
+	public void setUserNameD(int i) throws EncryptedDocumentException, IOException
 	{
 		userId.sendKeys(Utility.readXL(i,1));
 	}
 	
-	public void setPassword(int j) throws EncryptedDocumentException, IOException
+	public void setPasswordD(int j) throws EncryptedDocumentException, IOException
 	{
 		pwd.sendKeys(Utility.readXL(j,2));
 	}
 	public void Submit()
 	{
 		LoginBTN.click();
+	}
+	
+	public void setUserName(String use)	
+	{
+		userId.sendKeys(use);
+	}
+	
+	public void setPassword(String pas)
+	{
+		pwd.sendKeys(pas);
+	}
+	
+	public void out()
+	{
+		Logout.click();
 	}
 }

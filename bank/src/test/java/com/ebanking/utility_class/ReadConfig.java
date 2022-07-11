@@ -53,5 +53,10 @@ public class ReadConfig
 		String bro = pro.getProperty("edgepath");
 		return bro;
 	}
+	public String Title()
+	{
+		String bro = pro.getProperty("mainTitle");
+		return bro;
+	}
 
 }
