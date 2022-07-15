@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebanking.test_class.TC_SS2">
+      <class name="com.ebanking.test_class.TC_SSC3">
         <methods>
-          <include name="logintest" invocation-numbers="1 2 3"/>
-          <include name="afterTest"/>
           <include name="end"/>
           <include name="setUp"/>
-          <include name="beforeTest"/>
+          <include name="logintest" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- com.ebanking.test_class.TC_SS2 -->
+      </class> <!-- com.ebanking.test_class.TC_SSC3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

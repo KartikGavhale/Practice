@@ -310,3 +310,35 @@
 2022-07-10 14:18:01,985 - bank -INFO - user id entered 
 2022-07-10 14:18:02,184 - bank -INFO - password entered
 2022-07-10 14:18:03,586 - bank -INFO - submit button clicked
+2022-07-12 14:14:20,179 - bank -INFO - test case : 1
+2022-07-12 14:14:22,378 - bank -INFO - url open
+2022-07-12 14:14:23,269 - bank -INFO - user id entered 
+2022-07-12 14:14:23,321 - bank -INFO - password entered
+2022-07-12 14:14:25,322 - bank -INFO - submit button clicked
+2022-07-12 14:14:25,323 - bank -INFO - True Condition verified now checking for title
+2022-07-12 14:14:27,349 - bank -INFO - Title matched 
+2022-07-12 14:14:27,357 - bank -INFO - test case : 2
+2022-07-12 14:14:29,494 - bank -INFO - url open
+2022-07-12 14:14:29,599 - bank -INFO - user id entered 
+2022-07-12 14:14:29,656 - bank -INFO - password entered
+2022-07-12 14:14:30,183 - bank -INFO - submit button clicked
+2022-07-12 14:14:30,206 - bank -INFO - test case : 3
+2022-07-12 14:14:30,264 - bank -INFO - test case : 4
+2022-07-12 14:14:31,791 - bank -INFO - url open
+2022-07-12 14:14:31,858 - bank -INFO - user id entered 
+2022-07-12 14:14:31,909 - bank -INFO - password entered
+2022-07-12 14:14:32,453 - bank -INFO - submit button clicked
+2022-07-12 19:37:58,065 - bank -INFO - test case : 1
+2022-07-12 19:37:58,222 - bank -INFO - test case : 2
+2022-07-12 19:37:58,231 - bank -INFO - test case : 3
+2022-07-12 19:37:58,239 - bank -INFO - test case : 4
+2022-07-13 19:57:14,118 - bank -INFO - Login passed
+2022-07-13 20:00:22,324 - bank -INFO - Login passed
+2022-07-13 20:03:07,210 - bank -INFO - Login passed
+2022-07-13 20:03:13,676 - bank -WARN - Login failed
+2022-07-13 20:03:16,306 - bank -WARN - Login failed
+2022-07-13 20:03:18,962 - bank -WARN - Login failed
+2022-07-13 20:09:02,408 - bank -INFO - Login passed
+2022-07-13 20:12:41,170 - bank -INFO - Login passed
+2022-07-14 11:48:17,763 - bank -INFO - Login passed
+2022-07-14 11:49:15,879 - bank -INFO - Login passed

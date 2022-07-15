@@ -310,3 +310,35 @@
 2022-07-10 14:18:01,985 [main] INFO bank - user id entered 
 2022-07-10 14:18:02,184 [main] INFO bank - password entered
 2022-07-10 14:18:03,586 [main] INFO bank - submit button clicked
+2022-07-12 14:14:20,179 [main] INFO bank - test case : 1
+2022-07-12 14:14:22,378 [main] INFO bank - url open
+2022-07-12 14:14:23,269 [main] INFO bank - user id entered 
+2022-07-12 14:14:23,321 [main] INFO bank - password entered
+2022-07-12 14:14:25,322 [main] INFO bank - submit button clicked
+2022-07-12 14:14:25,323 [main] INFO bank - True Condition verified now checking for title
+2022-07-12 14:14:27,349 [main] INFO bank - Title matched 
+2022-07-12 14:14:27,357 [main] INFO bank - test case : 2
+2022-07-12 14:14:29,494 [main] INFO bank - url open
+2022-07-12 14:14:29,599 [main] INFO bank - user id entered 
+2022-07-12 14:14:29,656 [main] INFO bank - password entered
+2022-07-12 14:14:30,183 [main] INFO bank - submit button clicked
+2022-07-12 14:14:30,206 [main] INFO bank - test case : 3
+2022-07-12 14:14:30,264 [main] INFO bank - test case : 4
+2022-07-12 14:14:31,791 [main] INFO bank - url open
+2022-07-12 14:14:31,858 [main] INFO bank - user id entered 
+2022-07-12 14:14:31,909 [main] INFO bank - password entered
+2022-07-12 14:14:32,453 [main] INFO bank - submit button clicked
+2022-07-12 19:37:58,065 [main] INFO bank - test case : 1
+2022-07-12 19:37:58,222 [main] INFO bank - test case : 2
+2022-07-12 19:37:58,231 [main] INFO bank - test case : 3
+2022-07-12 19:37:58,239 [main] INFO bank - test case : 4
+2022-07-13 19:57:14,118 [main] INFO bank - Login passed
+2022-07-13 20:00:22,324 [main] INFO bank - Login passed
+2022-07-13 20:03:07,210 [main] INFO bank - Login passed
+2022-07-13 20:03:13,676 [main] WARN bank - Login failed
+2022-07-13 20:03:16,306 [main] WARN bank - Login failed
+2022-07-13 20:03:18,962 [main] WARN bank - Login failed
+2022-07-13 20:09:02,408 [main] INFO bank - Login passed
+2022-07-13 20:12:41,170 [main] INFO bank - Login passed
+2022-07-14 11:48:17,763 [main] INFO bank - Login passed
+2022-07-14 11:49:15,879 [main] INFO bank - Login passed

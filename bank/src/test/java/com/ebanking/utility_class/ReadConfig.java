@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class ReadConfig 
 {
-	Properties pro ;
+	static Properties pro ;
 	public ReadConfig()
 	{
 		File src = new File("./Configuration/config.properties");
@@ -26,7 +26,7 @@ public class ReadConfig
 		return url;
 	}
 	
-	public String getuser()
+	public static String getuser()
 	{
 		String user = pro.getProperty("Username");
 		return user;

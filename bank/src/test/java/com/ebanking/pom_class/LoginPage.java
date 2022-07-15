@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -28,12 +27,12 @@ public class LoginPage
 	
 	public void setUserNameD(int i) throws EncryptedDocumentException, IOException
 	{
-		userId.sendKeys(Utility.readXL(i,1));
+		userId.sendKeys(Utility.readXL(i,0));
 	}
 	
 	public void setPasswordD(int j) throws EncryptedDocumentException, IOException
 	{
-		pwd.sendKeys(Utility.readXL(j,2));
+		pwd.sendKeys(Utility.readXL(j,1));
 	}
 	public void Submit()
 	{

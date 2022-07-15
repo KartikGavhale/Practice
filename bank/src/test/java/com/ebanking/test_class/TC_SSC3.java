@@ -8,16 +8,15 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.ebanking.pom_class.LoginPage;
-import com.ebanking.utility_class.ReadConfig;
+import com.ebanking.utility_class.Utility;
 
-public class TC_SS2  extends BaseClass
+public class TC_SSC3 extends BaseClass
 {
 	@Test(dataProvider="xldata")
 	public void logintest(String u,String p) throws InterruptedException, IOException, HeadlessException, AWTException
@@ -31,46 +30,40 @@ public class TC_SS2  extends BaseClass
 		lp.Submit();
 		
 
-		try {
-			
-			
-			driver.switchTo().alert();
-			Alert a = driver.switchTo().alert();
-			String actual= a.getText();
-			String expected = "User or Password is not valid";
-
-
-			if(actual.equals(expected))
-			{
-				a.accept();
-			}else {
-				System.out.println("popup test Failed");
-
-			}
-		}catch(NoAlertPresentException e)
+		if(isAlertPresent()==true)
 		{
-			String Expected = "Guru99 Bank Manager HomePage";
-			if(driver.getTitle().equals(Expected))
-			{
-				
-				String id ="Manger Id : "+ ReadConfig.getuser();
+			driver.switchTo().alert().accept();//close alert
+			driver.switchTo().defaultContent();
+			Assert.assertTrue(false);
+			log.warn("Login failed");
+		}
+		else
+		{
+			
 
-				String manager =driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
-				System.out.println(id +"----"+manager);
-				if(id.equals(manager))
-				{
-
-					System.out.println("Login page info correct");
-				}else 
-				{					System.out.println("Login page infor wrong");
-
-				}
-			}
+			Assert.assertTrue(true);
+			log.info("Login passed");
 			lp.out();
-			driver.switchTo().alert().accept();
-
+			Thread.sleep(3000);
+			driver.switchTo().alert().accept();//close logout alert
+			driver.switchTo().defaultContent();
+			
+		}
 		}
 
+
+	public boolean isAlertPresent() //user defined method created to check alert is presetn or not
+	{
+		try
+		{
+		driver.switchTo().alert();
+		return true;
+		}
+		catch(NoAlertPresentException e)
+		{
+			return false;
+		}
+		
 	}
 
 	@DataProvider(name="xldata")
@@ -92,4 +85,5 @@ public class TC_SS2  extends BaseClass
 		}
 		return data;
 	}
+
 }
